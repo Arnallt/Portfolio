@@ -1,0 +1,119 @@
+
+/* Sets styling to H1 headings */
+h1 {
+    color: white;
+    margin-left: 15px;
+}
+
+/* * {
+    border: solid;
+} */
+
+/* Sets border for header class*/
+.header *{
+
+    border: solid;
+
+}
+/* Sets color for links */
+a:link{
+
+    color: red;
+
+}
+
+/* Sets color for visited links */
+a:visited{
+
+    color:green;
+
+}
+
+/* Sets margin for About Me and Projects URL*/
+.menu a{
+
+margin-left: 20px;
+
+}
+
+/* Sets styling for header class */
+.header{
+    outline-style: solid;
+    outline-width: 40px ;
+    outline-color: red;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+/* Sets spacing in grid-like form for projects*/
+/* Display: FLex will display in flex-box*/
+.grid{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Sets position for item class*/
+.item {
+
+    position: relative;
+
+}
+/* Sets opacity for images in item class*/
+.item img{
+
+    opacity: 0.8;
+
+}
+
+/* Sets position for paragraphs in item class*/
+.item p{
+
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    opacity: 0
+
+}
+
+/* Sets opacity and color for paragraphs in item class when hovered over*/
+.item:hover p{
+
+    opacity: 1;
+    color: olive;
+
+}
+/* Sets opacity for images in item class when hovered over*/
+.item:hover img{
+
+    opacity: 1;
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Sets text alignment for all paragraphs and h2 heading*/
+p,h2{
+    text-align: center;
+}
+
+/* Sets styling for body tag*/
+body{
+
+    
+    text-decoration: underline;
+    border-top: 12pt double red;
+    background-color: rgb(12,97,42);
+    margin-top: 50px;
+    font-size: 12px;
+    font-family: fantasy;
+    
+
+}
